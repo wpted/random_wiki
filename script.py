@@ -44,9 +44,11 @@ def main():
 
     url = random_wiki_url()
     print(f"{url=}")
-    content = get_content("https://exampledomain.com")
+    # content = get_content("https://exampledomain.com")
     # print(content)
     # content = get_content("123")
+    content = get_content(url)
+    print(content)
 
 
 if __name__ == "__main__":
